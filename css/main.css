@@ -124,7 +124,7 @@ body{
 .ceredina{
 	margin: 0;
 	margin-top: 678px;
-	height: 1500px;
+	height: 740px;
 	width: 100%;
 	background: black;
 	position: absolute;
@@ -166,6 +166,44 @@ body{
 .salon{
 	box-shadow: 0px 0px 20px red;
 	margin-left: 20px;
+}
+.ceredina2{
+	margin: 0;
+	height: 740px;
+	width: 100%;
+	background: rgb(185, 0, 0, 1.0);
+	margin-top: 1418px;
 
+}
+.texttt{
+	color: white;
+	text-align: center;
+}
+.blok5{
+	background: black;
+	width: 270px;
+	height: 330px;
+	margin-left: 100px;
+	float: left; /*обтекание*/
 
+}
+.blok6{
+	background: black;
+	width: 270px;
+	height: 330px;
+	margin-left: 250px;
+	float: left;
+	
+}
+.blok7{
+	background: black;
+	width: 270px;
+	height: 330px;
+	margin-left: 1150px;
+}
+.car1{
+
+}
+.text33{
+	color: white;
 }
