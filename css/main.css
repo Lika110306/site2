@@ -182,8 +182,8 @@ body{
 	text-align: center;
 }
 .flex-container {
-  display: flex;
-  align-items: flex-start;
+   display: flex;
+   align-items: flex-start;
 	justify-content: flex-start;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -192,7 +192,6 @@ body{
 .element{
 	background: black;
 	padding: 10px;
-	width: 300px;
 	height: 300px;
 	margin: 10px;
 	font-size: 30px;
@@ -247,19 +246,19 @@ div, h2, p, {
 
 .article {
   background: white;
-  color: #666;
+  color: black;
   display: flex;
   flex: 1;
   flex-direction: column;
   flex-basis: auto;
-  margin: 15px;
+  margin: 10px;
 }
 
 .article-image {
-  background: #eee;
-  display: block;
+  background: black;
+  display: flex;
   padding-top: 75%;
-  position: relative;
+  position: relative;/*относительно потока*/
   width: 100%;
 }
 
@@ -289,16 +288,13 @@ div, h2, p, {
 
 .article-title {
   color: black;
-  flex-shrink: 0;
-  font-size: 1.4em;
-  font-weight: bold;
+  font-size: 20px;
   font-weight: 700; /*жирные буквы*/
-  line-height: 1;
+ 
 }
-
 .article-content {
   flex: 1;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 
@@ -315,4 +311,67 @@ div, h2, p, {
   order: 2;
   padding-top: 0;
   width: 400px;
+
+}
+.container{
+	
+}
+.input-name, .input-email{
+	height: 50px;
+outline: 2px solid black;
+margin-bottom: 10px;
+margin-left: 20px;
+
+}
+
+}
+.input-name{
+	placeholder:;
+}
+.konec{
+	background-position: top center;
+	margin-top: 850px;
+	height: 740px;
+	width: 100%;
+	background: white;
+	position: relative;
+	
+}
+.reg{
+	background: red;
+	height: 200px;
+	margin: 200px;
+}
+.text123{
+	text-align: center;
+}
+.vkl2{
+	
+}
+@media (max-width: 1440px)
+{
+	.vkl3{
+		display: block;
+	}
+	.vkl2{
+		display: none;
+	}
+}
+@media (max-width:1200px)
+{
+	.vkl3{
+		display: ;
+	}
+	.vkl2{
+		display: block;
+	}
+}
+@media (max-width:992px)
+{
+	.vkl3{
+		display: none;
+	}
+	.vkl2{
+		display: block;
+	}
 }
