@@ -49,9 +49,12 @@ body{
 .text:hover{
 	color: red;
 }
+.text222{
+	font-size: 45px;
+}
 .text2{
 	color: white;
-	font-size: 45px;
+	
 	margin-top: 100px;
 	margin-left: 50px;
 	text-align: center;
@@ -127,8 +130,7 @@ body{
 	height: 740px;
 	width: 100%;
 	background: white;
-	position: absolute;
-}
+	
 
 }
 .vkl2{
@@ -141,10 +143,11 @@ body{
 	color: black;
 	margin-left: 550px;
 	position: relative;
-	bottom: 300px; /*перемещение текста вверх*/
+	bottom:390px; /*перемещение текста вверх*/
 	letter-spacing: 1px; /*промежуток между буквами*/
 	word-spacing: 10px;  /*промежуток между словами*/
 	line-height: 40px;
+	width: 500px;
 }
 .salon2{
 	position: relative;
@@ -345,33 +348,212 @@ margin-left: 20px;
 .text123{
 	text-align: center;
 }
-.vkl2{
 	
-}
-@media (max-width: 1440px)
+@media (max-width:1400px)
 {
-	.vkl3{
-		display: block;
+	.nomer{
+		margin-right: 730px;
 	}
-	.vkl2{
-		display: none;
-	}
+
 }
 @media (max-width:1200px)
 {
-	.vkl3{
-		display: ;
+	.nomer{
+		margin-right: 630px;
 	}
-	.vkl2{
-		display: block;
+	.nom{
+		font-size: 16px;
 	}
+	.yl{
+		font-size: 16px;
+	}
+	.text11{
+		margin-left: 540px;
+		bottom: 400px;
+		font-size: 25px;
+	}
+	.text{
+	margin-right: 40px;
+	font-size: 25px;
+	}
+	.salon22{
+		bottom: 300px;
+	}
+	
+
+
 }
 @media (max-width:992px)
 {
-	.vkl3{
-		display: none;
+
+	.iconka{
+		margin-right: 70px;
 	}
-	.vkl2{
-		display: block;
+	.ic{
+		width: 35px;
 	}
+	.nomer{
+		margin-right: 500px;
+	}
+	.nom{
+		font-size: 14px;
+	}
+	.yl{
+		font-size: 14px;
+	}
+	.text11{
+		margin-left: 480px;
+		bottom: 400px;
+		font-size: 20px;
+	}
+	.text{
+	margin-right: 40px;
+	font-size: 20px;
+	}
+	.text222{
+		
+		font-size: 35px;
+	}
+	.salon{
+		width: 400px ;
+	}
+	.salon22{
+width: 450px;
+margin-bottom: 800px;
+float: left;
+	}
+}
+
+
+
+@media (max-width:768px)
+{
+	.iconka{
+		margin-right: 70px;
+	}
+	.ic{
+		width: 35px;
+	}
+		.nomer{
+		margin-right: 470px;
+	}
+	.text222{
+	
+		font-size: 30px;
+	}
+.nom{
+		font-size: 12px;
+	}
+	.yl{
+		font-size: 12px;
+	}
+	.text{
+	margin-right: 20px;
+	font-size: 20px;
+	margin-top: 80px;
+	}
+	.salon{
+		width: 300px ;
+	}
+	.salon22{
+   width: 350px;
+   margin-bottom: 400px;
+}
+.ceredina{
+height: 400px;
+}
+   .text11{
+		margin-left: 340px;
+		bottom: 300px;
+		font-size: 16px;
+		letter-spacing: 0px; /*промежуток между буквами*/
+		word-spacing: 5px; 
+}
+
+
+.text22{
+		margin-left: 400px;
+		bottom: 300px;
+		font-size: 16px;
+		letter-spacing: 0px; /*промежуток между буквами*/
+		word-spacing: 5px; 
+	}
+}
+@media (max-width:480px)
+{
+	.header-line{
+		justify-content: center;
+	}
+	.iconka{
+		margin-right: 70px;
+	.ic{
+		width: 30px;
+	}
+	.nomer{
+		margin-right: 350px;
+	}
+	.text222{
+		font-size: 27px;
+	}
+.nom{
+		font-size: 10px;
+	}
+	.yl{
+		font-size: 10px;
+	}
+	.text {
+	margin-right: 10px;
+	font-size: 5%;
+	
+	}
+	.salon{
+		width: 300px ;
+	}
+	.text11{
+		margin-left: 10px;
+		bottom: 300px;
+		font-size: 15px;
+		letter-spacing: 0px; /*промежуток между буквами*/
+		word-spacing: 5px; 
+	}
+	.salon22{
+width: 300px;
+margin-bottom: 600px;
+float: left;
+line-height: 15px;
+	}
+
+}
+@media (max-width:320px)
+{
+	.iconka{
+		margin-right: 90px;
+	}
+	.ic{
+		width: 25px;
+	}
+	.nomer{
+		margin-right: 100px;
+	}
+	.nom{
+		font-size: 7px;
+	}
+	.yl{
+		font-size: 7px;
+	}
+	.ctr{
+
+	}
+	.text{
+	margin-right: 10px;
+	font-size: 10%;
+	}
+	.text222{
+		font-size: 24px;
+		margin-top: 80px;
+	}
+	.salon22{
+width: 450px;
+margin-bottom: 600px;
+float: left;
 }
