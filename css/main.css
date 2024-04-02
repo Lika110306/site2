@@ -127,7 +127,7 @@ body{
 .ceredina{
 	margin: 0;
 	margin-top: 678px;
-	height: 740px;
+	height: 10px;
 	width: 100%;
 	background: white;
 	
@@ -173,10 +173,10 @@ body{
 }
 .ceredina2{
 	margin: 0;
-	height:740px;
+	
 	width: 100%;
 	background: white;
-	margin-top: 1418px;
+	margin-top: 1000px;
 
 }
 
@@ -486,31 +486,38 @@ height: 400px;
 	}
 	.iconka{
 		margin-right: 70px;
+	}
 	.ic{
 		width: 30px;
 	}
 	.nomer{
 		margin-right: 350px;
+		margin-top: 55px;
 	}
 	.text222{
 		font-size: 27px;
 	}
 .nom{
-		font-size: 10px;
+		font-size: 8px;
+		
 	}
 	.yl{
-		font-size: 10px;
+		font-size: 8px;
+		
 	}
 	.text {
 	margin-right: 10px;
-	font-size: 5%;
+	font-size: 13px;
 	
 	}
+
 	.salon{
 		width: 300px ;
+		margin-top:200px ;
 	}
 	.text11{
 		margin-left: 10px;
+		margin-bottom: 200px;
 		bottom: 300px;
 		font-size: 15px;
 		letter-spacing: 0px; /*промежуток между буквами*/
@@ -521,6 +528,44 @@ width: 300px;
 margin-bottom: 600px;
 float: left;
 line-height: 15px;
+	}
+	.blok1{
+		margin-left: 10px;
+		width: 120px;
+		height: 170px;
+	}
+	.text3{
+		padding: 10px 1px;
+		font-size: 20px;
+	}
+	.blok2{
+		width: 170px;
+	height: 80px;
+	margin-left: 170px;
+	}
+	.blok3{
+		width: 170px;
+	height: 60px;
+	margin-left: 100px;
+}
+.blok4{
+		width: 170px;
+	height: 60px;
+	margin-left: 170px;
+}
+.text4{
+		padding: 10px 1px;
+		font-size: 20px;
+	}
+	.text6{
+		padding: 10px 1px;
+		font-size: 20px;
+	}
+	.text5{
+		padding: 10px 10px;
+	}
+	.article-image is2{
+width: 100px;
 	}
 
 }
@@ -556,4 +601,5 @@ line-height: 15px;
 width: 450px;
 margin-bottom: 600px;
 float: left;
+}
 }
